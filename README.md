@@ -209,6 +209,11 @@ Since this is explicitly a **frontend-only** exercise, a few things are intentio
 - **One source for news is selected.** I only selected one source to receive list of news from multiple sources instead to implementing a backend service where this frontend sends request and the backend then do the heavy lifting to retrieve news from multiple sources. The single source I selected is what backend service could have achieved so implementation of such services was out of scope for this task.
 - **Rate limit.** The selected news source API has a rate limit i.e. 2 requests per second. Due to this the search feature needs to be triggered only when "Enter" hit is pressed or "Search" button is pressed. Real time search was not an option due to rate limitations. And implementing rate limitation myself was out of the scope of this(frontend only) task.
 - **One value per param.** The selected API only accept one value per param due to which only one source, category and author can be selected at a time.
+- **Communication contraints.** Communication to engineering team via HR related to this task which has a deadline of 5 days with 2 days of weekend is usually time consuming due to which I avoided communicating with the team.
+
+## What I'd Do Next With More Time
+- **Would have built pagination** Pagination/infinite scroll alongside virtualization would have been nice addition. Due to time constraints it wasn't included in the final project.
+
 
 ## View It In Action
 https://youtu.be/TdBeh2yrEQk
